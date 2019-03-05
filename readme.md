@@ -37,6 +37,7 @@ One of the great things about using promises is chaining. Chaining is executing 
 `.then()` is a method on a promise object that puts a callback in the promise chain. It takes up to two arguments: callback functions for the success and failure cases of the Promise.
 
 The `Promise.all()` method returns a single Promise that resolves when all of the promises passed as an iterable have resolved, or when the iterable contains no promises. It rejects with the reason of the first promise that rejects.
+
 ---
 
 ### Credits:
